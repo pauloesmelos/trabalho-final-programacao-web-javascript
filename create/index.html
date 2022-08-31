@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="paulo eduardo souza de melos">
+        <meta name="descriptions" content="Site Hostel Sparkling Water utilizando HTML5 e CSS3 para a disciplina de Programação Web da Unifal MG">
+        <meta name="keywords" content="Site Hostel Sparkling Water,HTML5 e CSS3,Programação Web,site estático,Unifal MG,Unifal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sparkling Water Hostel Application</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="menu-nav">
+                <ul class="ul-nav">
+                    <li class="li-default"><a href="#">Home</a></li>
+                    <li class="li-default"><a href="#">Customers</a></li>
+                    <li class="li-default"><a href="#">Rooms</a></li>
+                    <li class="li-default"><a href="#">Reservations</a></li>
+                    <li class="li-default"><a href="#">Contact</a></li>
+                    <div class="div-login">
+                        <li class="login"><a href="../login/index.html">Login</a></li>
+                    </div>
+                </ul>
+             </nav>
+        </header>
+        <main>
+            <h1>Create guest</h1>
+            <div class="p-info">
+                <p>Hi user, fill in guest information</p>
+            </div>
+            <section class="section-cadastro">
+                <form method="post" action="">
+                    <div class="name">
+                        <input type="text" name="nome" placeholder="First Name" minlength="3" required maxlength="50" autofocus autocomplete="name">
+                        <input type="text" name="sobrenome" placeholder="Last Name" minlenght="3" required maxlength="50" autocomplete="on">
+                    </div>
+                    <div class="contact">
+                        <input type="email" name="email" placeholder="Email Address" required autocomplete="email">
+                        <input type="tel" name="tel" placeholder="Phone Number" minlength="12" required autocomplete="tel">
+                    </div>
+                    <div class="address">
+                        <input type="text" name="endereco" placeholder="Address" required autocomplete="on">
+                    </div>
+                    <div class="location">
+                        <input type="text" name="pais" placeholder="Country" required autocomplete="country">
+                        <input type="text" name="estado" placeholder="State" required autocomplete="on">
+                    </div>
+                    <input type="submit" name="botao-create" value="Save">
+                    <a href="#">Return to all guests</a>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Sparking Water Hostel. Sparking water main st.1000. Caxambu-MG.</p>
+        </footer>
+    </body>
+ </html>

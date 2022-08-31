@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="paulo eduardo souza de melos">
+        <meta name="descriptions" content="Site Hostel Sparkling Water utilizando HTML5 e CSS3 para a disciplina de Programação Web da Unifal MG">
+        <meta name="keywords" content="Site Hostel Sparkling Water,HTML5 e CSS3,Programação Web,site estático,Unifal MG,Unifal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Sparkling Water Hostel Application</title>
+    </head>
+    <body>
+        
+        <header>
+            <nav class="menu-nav">
+                <ul class="ul-nav">
+                    <li class="li-default"><a href="#">Home</a></li>
+                    <li class="li-default"><a href="../create/index.html">Customers</a></li>
+                    <li class="li-default"><a href="#">Rooms</a></li>
+                    <li class="li-default"><a href="#">Reservations</a></li>
+                    <li class="li-default"><a href="#">Contact</a></li>
+                    <div class="div-login">
+                        <li class="login"><a href="#">Logout</a></li>
+                    </div>
+                </ul>
+             </nav>
+        </header>
+        <main>
+            <section class="section-tabela">
+                <div class="text">
+                    <h1>Guests</h1>
+                    <h3>Guests registered in the system</h3>
+                </div>
+                    <div class="search">
+                        <a href="../create/index.html">Add new guest</a>
+                        <form>
+                            <label>Search</label>
+                            <input type="text" name="nome">
+                        </form>
+                    </div>
+                    <div class="div-table">
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Phone Number</th>
+                                    <th>First</th>
+                                    <th>Last</th>
+                                    <th>Email Address</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>Teste 1</td>
+                                    <td>Teste 2</td>
+                                    <td>Teste 3</td>
+                                    <td>Teste 4</td>
+                                </tr>
+
+                                <tr>
+                                    <td>0</td>
+                                    <td>Teste 1</td>
+                                    <td>Teste 2</td>
+                                    <td>Teste 3</td>
+                                    <td>Teste 4</td>
+                                </tr>
+
+                                <tr>
+                                    <td>0</td>
+                                    <td>Teste 1</td>
+                                    <td>Teste 2</td>
+                                    <td>Teste 3</td>
+                                    <td>Teste 4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="control">
+                            <div class="anterior"><</div><div class="prox">></div>
+                        </div>
+                    </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; Sparking Water Hostel. Sparking water main st.1000. Caxambu-MG.</p>
+        </footer>
+        <script type="text/javascript" src="../backend/script.js"></script>
+    </body>
+</html>

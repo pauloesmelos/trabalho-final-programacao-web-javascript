@@ -1,0 +1,157 @@
+/*default**/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;;
+}
+ul li{
+    list-style-type: none;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(34, 33, 33);
+}
+/**menu-nav*/
+.menu-nav{
+    position: relative;
+    width: 100%;
+    border: 1px solid rgb(34, 33, 33);
+    box-sizing: border-box; /***/
+}
+.ul-nav{
+    position: relative;
+    width: 99%;
+    display: flex;
+    box-sizing: border-box; /***/
+}
+.ul-nav li{
+    position: relative;
+}
+.ul-nav .li-default{
+    line-height: 2em;
+    margin-right: 20px;
+}
+.ul-nav li a{
+    text-decoration: none;
+    color:rgb(49, 47, 47);
+}
+.ul-nav .li-default a{
+    transition: 0.7s;
+}
+.ul-nav .li-default a:hover{
+    padding: 5px 7px;
+    background-color: rgb(49, 47, 47);
+    color: #fff;
+}
+.login a{
+    padding: 8px 12px;
+    background-color: rgb(46, 230, 46);
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+.login a:hover{
+    background-color: rgb(49, 47, 47);
+    color:#fff;
+}
+.div-login{
+    position: absolute;
+    margin: 0;
+    right: 0;
+    line-height: 1.7em;
+}
+
+/** section-login **/
+.section-login{
+    width: 100%;
+    display: flex;
+    padding-top: 3em;
+    
+}
+.background{
+    width: 30%;
+    background-color: #2b312f;
+    padding: 13em 8em;
+    text-align: center;
+}
+.background h1{
+    color: #fff;
+    font-size: 2em;
+    font-weight: bold;
+}
+.background p{
+    color: #fff;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.form-login{
+    width: 70%;
+    position: relative;
+    text-align: center; /**alinhar com text-align kk**/
+    padding: 10em 0;
+}
+.form-login form{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.form-login input[type=submit]{
+    padding: 10px 15px;
+    background-color: #353a38;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    width: 22%;
+    margin-left: 8em;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: 0.8s;
+    font-weight: bold;
+}
+.form-login input[type=submit]:hover{
+    width: 25%;
+    background-color: #464b49;
+    color: rgb(46, 230, 46); 
+}
+.form-login p{
+    color:rgb(34, 33, 33);
+    font-weight: bold;
+}
+.div-user{
+    display: flex;
+    justify-content: center; /*flexbox**/
+}
+.div-user input[type=text],input[type=password]{
+    color: rgb(36, 56, 77);
+    background-color: rgb(194, 193, 193);
+    border: none;
+    width: 50%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-left: 3em;
+    outline: none;
+}
+.div-user input[type=text]:focus,input[type=password]:focus{
+    border: 1px solid rgb(19, 18, 18);
+}
+.div-password{
+    display: flex;
+    justify-content: center; /*flexbox**/
+}
+input[type=text]:valid,input[type=password]:valid{
+    border: 3px solid rgb(46, 230, 46);
+}
+/*footer**/
+footer{
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #383d3b;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}

@@ -1,0 +1,145 @@
+/*default**/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;;
+}
+ul li{
+    list-style-type: none;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(34, 33, 33);
+}
+/**menu-nav*/
+.menu-nav{
+    position: relative;
+    width: 100%;
+    border: 1px solid rgb(34, 33, 33);
+    box-sizing: border-box; /***/
+}
+.ul-nav{
+    position: relative;
+    width: 99%;
+    display: flex;
+    box-sizing: border-box; /***/
+}
+.ul-nav li{
+    position: relative;
+}
+.ul-nav .li-default{
+    line-height: 2em;
+    margin-right: 20px;
+}
+.ul-nav .li-default a:hover{
+    padding: 5px 7px;
+    background-color: rgb(49, 47, 47);
+    color: #fff;
+}
+.ul-nav li a{
+    text-decoration: none;
+    color:rgb(49, 47, 47);
+}
+.ul-nav .li-default a{
+    transition: 0.7s;
+}
+.login a{
+    padding: 8px 12px;
+    background-color: rgb(46, 230, 46);
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+.login a:hover{
+    background-color: rgb(49, 47, 47);
+    color:#fff;
+}
+.div-login{
+    position: absolute;
+    margin: 0;
+    right: 0;
+    line-height: 1.7em;
+}
+/**section cadastro*/
+.p-info{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+main{
+    width: 100%;
+    margin-top: 0;
+}
+main h1{
+    text-align: center;
+}
+.section-cadastro{
+    width: 74.4%;
+    margin-left: auto; /*posiciona a div no meio da tela*/
+    margin-right: auto; /*posiciona a div no meio da tela*/
+    padding: 3em;
+}
+.section-cadastro a {
+    color: rgb(49, 47, 47);
+    text-decoration: none;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(46, 230, 46);
+    float: right;
+}
+.section-cadastro a:hover{
+    color: rgb(46, 230, 46);
+}
+.section-cadastro input{
+    margin-bottom: 1.8em;
+    width: 40%;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+.section-cadastro input:focus{
+    border: 1px solid rgb(15, 15, 15);
+}
+.section-cadastro input[type=submit]{
+    width: 15%;
+    padding: 10px 15px;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    transition: 0.8s;
+    background-color: rgb(49, 47, 47);
+    color: #fff;
+    cursor: pointer;
+}
+.section-cadastro input[type=submit]:hover{
+    width: 17%;
+    color: rgb(46, 230, 46); 
+}
+.address input[type=text]{
+    width: 86%;
+    padding: 1em 2em;
+    border-radius: 5px;
+}
+input:valid{
+    border: 2px solid rgb(46, 230, 46);
+}
+/*footer*/
+footer{
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: center;
+    background-color: #383d3b;
+}
+footer p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
